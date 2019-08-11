@@ -1,4 +1,4 @@
-Src/main.o: ../Src/main.c ../Inc/main.h \
+Src/gpio.o: ../Src/gpio.c ../Inc/gpio.h ../Inc/main.h \
  C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
  ../Inc/stm32f3xx_hal_conf.h \
  C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h \
@@ -28,10 +28,9 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr.h \
  C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h \
  C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h \
- C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h \
- ../Inc/adc.h ../Inc/main.h ../Inc/dac.h ../Inc/tim.h ../Inc/gpio.h \
- C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/CMSIS/Include/arm_math.h \
- C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/CMSIS/Include/core_cm4.h
+ C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h
+
+../Inc/gpio.h:
 
 ../Inc/main.h:
 
@@ -94,17 +93,3 @@ C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_H
 C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h:
 
 C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h:
-
-../Inc/adc.h:
-
-../Inc/main.h:
-
-../Inc/dac.h:
-
-../Inc/tim.h:
-
-../Inc/gpio.h:
-
-C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/CMSIS/Include/arm_math.h:
-
-C:/Users/masamo/STM32Cube/Repository/STM32Cube_FW_F3_V1.10.0/Drivers/CMSIS/Include/core_cm4.h:
