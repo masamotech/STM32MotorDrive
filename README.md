@@ -14,13 +14,15 @@
 
   NUCLEO-F302R8
   
-- 対象変換器:
+- 対象電力変換器:
 
   Required VSI:
 
-  STEVAL-IPM[NN]B series (eg, STEVAL-IPM15B)
+  STEVAL-IPM[NN]B series (eg, STEVAL-IPM15B)　
+  with X-NUCLEO-IHM09M1(Motor control connector expansion board for STM32 Nucleo)
 
-- 対象モータ:
+
+- 対象電動機:
 
   Motor type:
 
