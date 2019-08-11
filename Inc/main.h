@@ -50,6 +50,8 @@ extern "C" {
 
 /* USER CODE END EM */
 
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
+
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -58,6 +60,40 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define I_V_Pin GPIO_PIN_0
+#define I_V_GPIO_Port GPIOC
+#define I_W_Pin GPIO_PIN_1
+#define I_W_GPIO_Port GPIOC
+#define Temp__Sens__Pin GPIO_PIN_2
+#define Temp__Sens__GPIO_Port GPIOC
+#define IHM09SPEED_VR_Pin GPIO_PIN_3
+#define IHM09SPEED_VR_GPIO_Port GPIOC
+#define I_U_Pin GPIO_PIN_0
+#define I_U_GPIO_Port GPIOA
+#define V_DC_Pin GPIO_PIN_1
+#define V_DC_GPIO_Port GPIOA
+#define U_L_Pin GPIO_PIN_7
+#define U_L_GPIO_Port GPIOA
+#define V_L_Pin GPIO_PIN_0
+#define V_L_GPIO_Port GPIOB
+#define W_L_Pin GPIO_PIN_1
+#define W_L_GPIO_Port GPIOB
+#define IHM09LEDRED_Pin GPIO_PIN_2
+#define IHM09LEDRED_GPIO_Port GPIOB
+#define Z_Pin GPIO_PIN_10
+#define Z_GPIO_Port GPIOB
+#define KILL_Pin GPIO_PIN_12
+#define KILL_GPIO_Port GPIOB
+#define U_H_Pin GPIO_PIN_8
+#define U_H_GPIO_Port GPIOA
+#define V_H_Pin GPIO_PIN_9
+#define V_H_GPIO_Port GPIOA
+#define W_H_Pin GPIO_PIN_10
+#define W_H_GPIO_Port GPIOA
+#define A_Pin GPIO_PIN_15
+#define A_GPIO_Port GPIOA
+#define B_Pin GPIO_PIN_3
+#define B_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
