@@ -1,7 +1,12 @@
 # STM32MotorDrive
-STM32で3相モータドライブ!
-
+  STM32で3相モータドライブ!
   3phase motor drive with STM32F3 series!
+
+  -IDE：
+  
+    STM32CubeIDE　v1.0.1
+
+
 
 - 対象マイコンボード:
 
