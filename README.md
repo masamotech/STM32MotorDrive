@@ -19,6 +19,7 @@
   Required VSI:
 
   STEVAL-IPM[NN]B series (eg, STEVAL-IPM15B)　
+  
   with X-NUCLEO-IHM09M1(Motor control connector expansion board for STM32 Nucleo)
 
 
