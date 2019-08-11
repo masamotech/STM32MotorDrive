@@ -2,9 +2,9 @@
   STM32で3相モータドライブ!
   3phase motor drive with STM32F3 series!
 
-  -IDE：
+  IDE
   
-    STM32CubeIDE　v1.0.1
+  STM32CubeIDE　v1.0.1
 
 
 
